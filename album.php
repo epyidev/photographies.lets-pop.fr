@@ -98,7 +98,7 @@ echo '<div class="blocktitle">
 	echo "<div class='block'>";
 			echo "<div class='readzone'>";
 $display_name = htmlspecialchars($settings['display_name'] ?? $dir);
-echo "<div><div class='title'><h1>$display_name</h1><a class='mbutton small zip-link' href='zip.php?dir=$dir'>Télécharger tout (ZIP)</a></div><div class='gallery'>";
+echo "<div><div class='title'><h1>$display_name</h1></div><div class='gallery'>"; // <a class='mbutton small zip-link' href='zip.php?dir=$dir'>Télécharger tout (ZIP)</a>
 foreach ($files as $file) {
   $filename = basename($file);
   $imgsrc = "uploads/$dir/$filename";

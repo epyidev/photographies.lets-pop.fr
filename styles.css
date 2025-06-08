@@ -40,14 +40,14 @@ body {
     padding: 0;
     font-family: "Urbanist", sans-serif;
 
-    --color-background-main: #181A20;
-    --color-background-secondary: #23262F;
-    --color-white: #F4F5F6;
-    --color-gray: #A3A9B6;
-    --color-black: #111217;
-    --color-primary: #4F8CFF;
-    --color-secondary: #232D3F;
-    --color-borderwhite: rgba(244, 245, 246, 0.08);
+    --color-background-main: #22272e;
+    --color-background-secondary: #2d333b;
+    --color-white: #ffffff;
+    --color-gray: #b0b8c1;
+    --color-black: #16181d;
+    --color-primary: #2563eb;
+    --color-secondary: #374151;
+    --color-borderwhite: rgba(255, 255, 255, 0.12);
 
     color: var(--color-white);
 
